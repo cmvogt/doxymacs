@@ -8,7 +8,8 @@ AC_REVISION($Revision: 1.11 $)
 
 AC_CONFIG_SRCDIR(c/doxymacs_parser.c)
 
-AM_INIT_AUTOMAKE(doxymacs, 1.8.0)
+dnl AM_INIT_AUTOMAKE(doxymacs, 1.8.0)
+AM_INIT_AUTOMAKE
 
 AC_PREFIX_DEFAULT(${HOME})
 
